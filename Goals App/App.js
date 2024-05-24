@@ -14,12 +14,12 @@ export default function App() {
   const [enteredGoalText, setEnteredGoalText] = useState('');
   const [courseGoals, setCourseGoals] = useState([]);
   function goalInputHandler(enteredText) {
-    // console.log(enteredText);
+    // console.log(enterredText);
     setEnteredGoalText(enteredText);
   }
 
   function addGoalHandler() {
-    console.log(`goal is: ${enteredGoalText}`);
+    // console.log(`goal is: ${enteredGoalText}`);
     setCourseGoals((currentCourseGoals) => [
       ...currentCourseGoals,
       { text: enteredGoalText, key: Math.random().toString() }, // setting key for RN FlatList to detect and use
