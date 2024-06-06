@@ -75,6 +75,7 @@ const styles = StyleSheet.create({
   rootScreen: {
     flex: 1,
     // backgroundColor: '#ddb52f',
+    paddingTop: 24,
   },
   statusbar: {
     flex: 1,
